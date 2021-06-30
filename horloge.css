@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+}
+
+#outsidbox {
+    width: 400px;
+    height: 300px;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    background-color: rgb(48, 10, 45);
+    transform: translate(-50%,-50%);
+    border-radius: 30px;
+}
+#insidbox{
+    width: 340px;
+    height: 240px;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    background-color: rgb(31, 34, 211);
+    transform: translate(-50%,-50%);
+    border-radius: 30px;
+    text-align: center;
+}
+#time{
+    background-color: aquamarine;
+    width: 100%;
+    height: 200px;
+    font-size: 55px;
+    font-weight: bold;
+    line-height:200px;
+    color:cornsilk;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+}
+#date{
+    background-color:blueviolet;
+    height: 40px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: chocolate;
+}
+input[type="color" i] {
+    border:0px;
+}
+/* #settime,#setdate{
+   
+} */
+
+
